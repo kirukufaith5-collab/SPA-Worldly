@@ -1,1 +1,36 @@
+#nav {
+    overflow: hidden;
+    text-align: left;
+    text-emphasis-color: inherit;
+    display: flex;
+    gap:20px;
+    padding: 1rem;
+    width: 100px;
 
+}
+body{
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('aedrian-salazar-aNVx2FpKAF8-unsplash.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   text-size-adjust : 100%;}
+
+head{
+    text-align: center;
+    background-color: bisque;
+}
+
+h4{
+    text-align: center;
+    color: rgb(191, 11, 92);
+}
+h2{
+    text-align: center;
+    color: rgb(213, 242, 168);
+}
+
+ 

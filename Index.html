@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flex Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+</header>
+
+<nav id="nav">
+    <br>
+    <a href="favourite-words.html">Favourite Words</a>
+    <br>
+    <br>
+</nav>
+<head>
+            <h2>Welcome to flex Dictionary App</h2>
+        
+    <h4>Discover the meanings of words and expand your vocabulary!</h4>
+        </head>
+<body>
+<br>
+<br>
+     <form id="dictionary-form">
+    <input type="text" id="search-input" placeholder="Enter a word..." required>
+    <button type="submit">Search</button>
+</form>
+
+<div id="result-container">
+    <h2 id="word-title"></h2>
+    <p id="phonetic-text"></p>
+    <audio id="audio-player" controls style="display: none;"></audio>
+    
+    </div>
+    
+</body>
+    
+<script src="Index.js" defer></script>
+</html>
